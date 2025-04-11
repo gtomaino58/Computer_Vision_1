@@ -1,9 +1,3 @@
-# Vamos a preparar el entorno para el proyecto
-
-# Visualizamos varios resultados en cada celta
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
-
 # Importamos las librerias necesarias
 import os
 import numpy as np
