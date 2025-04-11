@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 # Vamos a cargar el archivo de datos de las imagenes 
 # Definimos la ruta de los datos
-data_dir = r'/home/224F8578gianfranco/Computer_Vision_1/train'
+data_dir = r'./train'
 
 # Definimos la ruta de los datos de las imagenes benignas y malignas
 benign_dir = os.path.join(data_dir, 'benign')
