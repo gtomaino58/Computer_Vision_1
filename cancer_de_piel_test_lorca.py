@@ -53,7 +53,7 @@ plt.subplot(1, 2, 2)
 plt.title('Malignant Image')
 plt.imshow(malignant_images[0])
 plt.axis('off')
-plt.show();
+plt.savefig('train_images.png')
 
 # Vamos a ver las imagenes de test
 plt.figure(figsize=(10, 10))
@@ -65,4 +65,4 @@ plt.subplot(1, 2, 2)
 plt.title('Malignant Image')
 plt.imshow(malignant_images[1])
 plt.axis('off')
-plt.show();
+plt.savefig('test_images.png')
